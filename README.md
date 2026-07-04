@@ -11,7 +11,7 @@ Built on 4 years of Superstore sales data, RetailPulse compares three independen
 using two separate detection methods, and clusters products into demand groups with recommended
 stocking strategies.
 
-**🔗 Live dashboard:** [your-app-name.streamlit.app](https://your-app-name.streamlit.app) *(replace with your actual link)*
+**🔗 Live dashboard:** https://retail-pulse-dashboard-n6hpntappj4iaqskccehcq.streamlit.app/
 
 
 
