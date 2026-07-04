@@ -59,28 +59,6 @@ analysis and exports the CSVs the dashboard needs (`export_for_dashboard()`).
 
 ---
 
-## Running it yourself
-
-### 1. Run the analysis notebook
-Open `RetailPulse_Sales_Forecasting.ipynb` in [Google Colab](https://colab.research.google.com/).
-You'll need a free [Kaggle](https://kaggle.com) account and API token to pull the datasets
-(instructions are in the notebook's setup cell). Running it end-to-end regenerates all files in
-`pulse_exports/`.
-
-### 2. Run the dashboard locally
-```bash
-git clone https://github.com/your-username/retail-pulse-dashboard.git
-cd retail-pulse-dashboard
-pip install -r requirements.txt
-streamlit run app.py
-```
-Opens at `http://localhost:8501`.
-
-### 3. Deploy it
-Push this repo (including `pulse_exports/`) to GitHub, then deploy for free on
-[Streamlit Community Cloud](https://share.streamlit.io) by pointing it at `app.py`.
-
-
 
 ## Dashboard pages
 
